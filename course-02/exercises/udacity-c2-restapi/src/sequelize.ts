@@ -1,6 +1,7 @@
 import {Sequelize} from 'sequelize-typescript';
 import { config } from './config/config';
 
+console.log(config.dev);
 
 const c = config.dev;
 
